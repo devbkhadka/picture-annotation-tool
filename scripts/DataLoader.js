@@ -72,7 +72,7 @@ var ApiCaller = jsface.Class({
         $.ajax({
             // url: ApiCaller.BASE_URL + method,
             url: "data/new-data.json",
-            type: "POST",
+            type: "GET",
             dataType: "json",
             contentType: "application/json",
             data: JSON.stringify(requestData),
